@@ -1,0 +1,26 @@
+{
+  "name": "mongo_operation_client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "material-ui": "0.18.3",
+    "jquery" : "3.2.1",
+    "bootstrap": "^3.3.7",      
+    "font-awesome": "^4.7.0",   
+    "ionicons": "^3.0.0",      
+    "react-router": "^4.1.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7",
+    "babel-polyfill" : "6.23.0",
+    "react-tap-event-plugin" : "2.0.1"
+   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

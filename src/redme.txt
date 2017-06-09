@@ -1,0 +1,4 @@
+
+ "bootstrap": "^3.3.7",      // 'http://getbootstrap.com/'
+ "font-awesome": "^4.7.0",   // 'http://fontawesome.io/'
+ "ionicons": "^3.0.0",       // Icons form  'http://ionicons.com/'
