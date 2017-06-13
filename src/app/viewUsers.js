@@ -55,7 +55,7 @@ export default class ViewUsers extends Component {
 
 	loadUsersData(){
 		GenericService.getAllUsers((response) =>{
-			console.log("Response Date : " , response)
+			console.log("Response Date : " , response.data);
 			if(response.success) {
 				this.setState({
 					userDataArray : response.data
@@ -94,6 +94,10 @@ export default class ViewUsers extends Component {
 					<td>{user.email}</td>
 					<td>{user.mobile}</td>
 					<td>{user.dob}</td>
+					<td> <img 
+									style={{height: 150, margin: 0, width: 150}} 
+									src={`data:image/jpeg;base64, ${user.profilePic}`} 
+									/></td>
 					<td><RaisedButton 
 						     	label="Generate PDF" 
 						     	primary={true} 
@@ -129,6 +133,7 @@ export default class ViewUsers extends Component {
 					        <td>Email</td>
 					        <td>Mobile</td>
 					        <td>DOB</td>
+					        <td>Profile Pic</td>
 					        <td>Action</td>
 					      </tr>
 					    </thead>
