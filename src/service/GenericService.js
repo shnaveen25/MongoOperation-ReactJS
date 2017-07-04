@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 //const host = 'http://localhost:8080'
-const host = 'https://userinfoserver.herokuapp.com';
+const host = 'https://userinfoserver.herokuapp.com'
 
 class GenericService {
 
